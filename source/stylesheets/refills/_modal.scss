@@ -1,3 +1,11 @@
+.modal-open {
+  overflow: hidden;
+}
+
+.modal-closed {
+  overflow: auto;
+}
+
 .modal {
   ///////////////////////////////////////////////////////////////////////////////////
   $base-border-color: gainsboro !default;
@@ -47,10 +55,6 @@
   .modal-trigger {
     @include button(flat, $base-accent-color);
     padding: 0.8em 1em;
-  }
-
-  .modal-open {
-    overflow: hidden;
   }
 
   .modal-window { // overlay
